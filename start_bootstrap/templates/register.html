@@ -1,0 +1,8 @@
+{% extends 'base.html'%}
+{% block content %}
+{% load static %}
+<h1>REGISTRATION</h1>
+<form action="#">
+     {{ forms.as_table }}
+</form>{% csrf_token %}
+{% endblock %}
