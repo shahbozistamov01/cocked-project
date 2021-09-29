@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'start_bootstrap.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'start_bootstrap_db',
-        'USER': 'admin_db',
-        'PASSWORD': 'root',
+        'NAME': 'start_bootstrap',
+        'USER': 'user_db',
+        'PASSWORD': 'start',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
