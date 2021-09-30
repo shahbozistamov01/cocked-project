@@ -1,2 +1,2 @@
-hello world
-welcome to my github !!
+python==3.2.6
+psycopg2==2.9.1
